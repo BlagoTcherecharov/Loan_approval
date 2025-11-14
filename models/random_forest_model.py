@@ -24,7 +24,7 @@ class RFModel:
         clf.fit(X_train, y_train)
 
         # Save model
-        joblib.dump(clf, "../model_files/random_forest.pkl")
+        joblib.dump(clf, "./model_files/random_forest.pkl")
 
         # Model performance metrics
         print("model score: %.3f" % clf.score(X_test, y_test))

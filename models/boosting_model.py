@@ -24,7 +24,7 @@ class BoostingModel:
         clf.fit(X_train, y_train)
 
         # Save model
-        joblib.dump(clf, "../model_files/boosting.pkl")
+        joblib.dump(clf, "./model_files/boosting.pkl")
 
         # Model performance metrics
         print("model score: %.3f" % clf.score(X_test, y_test))
