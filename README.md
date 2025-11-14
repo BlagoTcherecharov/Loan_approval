@@ -64,8 +64,7 @@ Side note:
 - The dataset is relatively small and simulated, so results may not reflect real-world loan approval scenarios.
 
 Overall, ensemble methods (boosting and random forests) proved more effective than the neural network approach for this dataset,
-but further tuning and larger, more representative data could change the outcome.
-
+but further tuning and larger, more representative data could change the outcome.\
 ---
 ## Possible/Future Work
 - **Model variety**: Experiment with additional algorithms such as XGBoost, LightGBM, or CatBoost for comparison.
