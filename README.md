@@ -16,7 +16,9 @@ with different approaches to solve the same problem.
 ## Setup
 Clone the repo and install dependencies:
 1. Clone repo:
-```bash git clone https://github.com/BlagoTcherecharov/Loan_approval.git```
+```bash 
+git clone https://github.com/BlagoTcherecharov/Loan_approval.git
+```
 2. Navigate to project folder
 ```cd Loan_approval```
 3. Install requirements
